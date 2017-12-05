@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="android" name="Android">
+      <configuration>
+        <option name="GEN_FOLDER_RELATIVE_PATH_APT" value="/../../Project-SouthEast/gen" />
+        <option name="GEN_FOLDER_RELATIVE_PATH_AIDL" value="/../../Project-SouthEast/gen" />
+        <option name="MANIFEST_FILE_RELATIVE_PATH" value="/../../Project-SouthEast/AndroidManifest.xml" />
+        <option name="RES_FOLDER_RELATIVE_PATH" value="/../../Project-SouthEast/res" />
+        <option name="ASSETS_FOLDER_RELATIVE_PATH" value="/../../Project-SouthEast/assets" />
+        <option name="LIBS_FOLDER_RELATIVE_PATH" value="/../../Project-SouthEast/libs" />
+        <option name="PROGUARD_LOGS_FOLDER_RELATIVE_PATH" value="/../../Project-SouthEast/proguard_logs" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/gen" isTestSource="false" generated="true" />
+    </content>
+    <orderEntry type="jdk" jdkName="Android API 22 Platform" jdkType="Android SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

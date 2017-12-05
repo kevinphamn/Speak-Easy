@@ -1,0 +1,130 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.kevin.myapplication.SecondActivity"
+    android:background="#03A9F4"
+    android:touchscreenBlocksFocus="false">
+
+
+    <TextView
+        android:id="@+id/Title"
+        android:text="@string/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:textColor="#FFFFFF"
+        android:background="#29B6F6"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/linearLayout"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/randomButton"
+
+            android:text="Randomize"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+
+            android:layout_width="354dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/secondbuttons"
+            android:shadowColor="#FFFFFF"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5" />
+
+    </LinearLayout>
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/ScrollView01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="none"
+        android:layout_below="@+id/Title"
+        android:layout_above="@+id/linearLayout">
+
+
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:id="@+id/btnLLL"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/articleTextOne"
+        android:id="@+id/text1"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/articleTextTwo"
+        android:id="@+id/text2"
+        android:layout_below="@+id/text1"
+        android:layout_alignLeft="@+id/text1"
+        android:layout_alignStart="@+id/text1"
+        android:layout_marginTop="55dp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/articleTextThree"
+        android:id="@+id/text3"
+        android:layout_below="@+id/text2"
+        android:layout_alignLeft="@+id/text2"
+        android:layout_alignStart="@+id/text2"
+        android:layout_marginTop="55dp"
+        android:textColor="#000000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/articleTextFour"
+        android:id="@+id/text4"
+        android:layout_below="@+id/text3"
+        android:layout_alignLeft="@+id/text3"
+        android:layout_alignStart="@+id/text3"
+        android:layout_marginTop="60dp"
+        android:textColor="#000000" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/urlLink"
+            android:id="@+id/text5"
+            android:autoLink="web"
+            android:layout_below="@+id/text4"
+            android:layout_alignLeft="@+id/text4"
+            android:layout_alignStart="@+id/text4"
+            android:layout_marginTop="58dp" />
+
+    </RelativeLayout>
+
+    </ScrollView>
+
+
+
+</RelativeLayout>
